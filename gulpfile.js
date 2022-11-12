@@ -1,9 +1,10 @@
 "use strict";
+const sass = require('gulp-sass')(require('sass'));
 
 const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
-const sass = require("gulp-sass");
+// const sass = require("gulp-sass");
 const autoprefixer = require("autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const postcss = require("gulp-postcss");
