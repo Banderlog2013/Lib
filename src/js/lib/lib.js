@@ -6,5 +6,7 @@ import './modules/actions';
 import './modules/effects'
 import './components/dropdown';
 import './components/modal';
-import './components/tabs'
+import './components/tabs';
+import './components/accodion';
+
 export default $;  
